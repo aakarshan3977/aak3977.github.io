@@ -1,0 +1,142 @@
+<html>
+  <head>
+    <title>BamBoo Box</title>
+    <link rel="stylesheet" href="style.css" />
+    
+    <script src="script.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="main">
+    <header>
+      <nav class="drop">
+        <ul>
+          <li>
+            <a href="/" class="Companylogo">
+            <img width="50" height="40" src="/images/panda logo.jpg" /></a>BamBoo Box</a>
+          </li>
+          <li><a href="/Home">Home</a></li>
+          <li>
+            <a href="/Product.html">Products</a>
+            <ul>
+             
+              <li><a href="/decoration.html">Decoration</a></li>
+               <li><a href="/kitchenproducts.html">Kitchen Products and other</a></li>
+            </ul>
+          </li>
+          <li><a href="/BulkProducts.html">Bulk Products</a></li>
+          <li><a href="/AboutUs.html">About Us</a></li>
+          <li><a href="/ContactUs.html">Contact Us</a></li>
+        </ul>
+      </nav>
+      <div class="topnav">
+        <input type="text" placeholder="Search..">
+      </div>
+    </header>
+      <div class="banner">
+        <p><a href="/Product.html">Shop online</a> and get free delivery.</p>
+      </div>
+      <h1>Contact Us</h1>
+      <h1>Our Address:-</h1>
+      <h2>87 Roxobury Street,Markham,Ontario  CANADA</h2>
+      <h2>L23 S25</h2>
+      <h2>Phone Number:- 416-442-0178</h2>
+      <h1>You Can Also Contact Us On Our Email or Facebook</h1>
+      <h2>Email Address:- bamboobox3977@gmail.com</h2>
+      <h1>SAVE EARTH USE BAMBOO</h1>
+      <h2>For additional queries please fill the form below:-</h2>
+     
+      
+
+        <form class="boxform" action="https://httpbin.org/post" method="POST">
+          <label for="fname">First name:</label><br>
+        <input required type="text" id="fname" name="fname"><br>
+        <label for="lname">Last name:</label><br>
+        <input required type="text" id="fname" name="fname"><br>
+        <label for="email">Email:</label><br>
+        <input  required type="Email" id="Email" name="Email"><br>
+        <label for="Address">Address:</label><br>
+        <input required type="text" id="Address" name="Address"><br>
+        <label for="Cityname">City:</label><br>
+        <input required list="Cityname" name="Cityname"><br>
+        <datalist id="Cityname">
+          <option value="Toronto">
+          <option value="Vancouver">
+          <option value="Niagara Falls">
+          <option value="Victoria">
+          <option value="Halifax">
+          <option value="Quebec City">
+          <option value="Calgary">
+          <option value="Ottawa">
+          <option value="Edmonton">
+        </datalist>
+        
+        <label for="Province">Province:</label><br>
+        <input required list="Province" name="Province">
+          <datalist id="Province">
+            <option value="Alberta">
+            <option value="British Columbia">
+            <option value="Manitoba">
+            <option value="New Brunswick">
+            <option value="Newfoundland and Labrador">
+            <option value="Northwest Territories">
+            <option value="Nova Scotia">
+            <option value="Nunavut">
+            <option value="Ontario">
+            <option value="Prince Edward Island">
+            <option value="Quebec">
+            <option value="Saskatchewan">
+            <option value="Yukon">
+          </datalist><br>
+                                  
+          <label for="Postal Code">Postal Code:</label><br>
+          <input required type="text" id="Postal Code" name="Postal Code" pattern="[A-Za-z][0-9][A-Za-z] ?[0-9][A-Za-z][0-9]" title="Six Letter Postal Code"><br>
+                                  
+            <p>Please select one option from below:-</p>
+            <input type="radio" name="button" value="Question">
+            <label for="Question">Questions</label><br>
+            <input type="radio" name="button" value="Comment">
+            <label for="Comment">Comment</label><br>
+            
+           
+            <input type="radio" name="button" value="Order Problem">
+            <label for="Order Problem">Order Problem</label><br>
+             
+            <div id="orderNum">
+            <label  for="Order Number">Order Number</label><br>
+            <input  type="text" name="ordernumber"><br>
+            </div>
+            <textarea required  name="message box"></textarea>
+            <input type="hidden" name="hidden" value="Aakarshan"><br>
+            <input type="submit">
+          </form>
+      
+                                
+        <footer>
+            <p>1. All products are made in CANADA and are eco-friendly. We are dedicated to serve renewable products to serveour customers and save the nature </p>
+                                  <p>Bulk Order are only taken on call</p>
+                                  
+            <hr />
+      <p>
+        More ways to shop: Find a Bamboobox store or other retailer near you. Or call 416-442-0178.
+    </p>
+    <hr />
+    <div>
+      <p>Copyright © 2020 Bamboobox Inc. All rights reserved.</p>
+      <nav>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Use</a>
+        <a href="#">Legal</a>
+      </nav>
+      <p>Made with ❤️ in Canada.</p>
+    </div>
+    <div><h3>FOLLOW US</h3></div>
+    <div>
+      <img src="/images/fb.jpg" alt="FB" style= "height:5%;">
+      <a href="https://www.facebook.com/">Facebook &rarr;</a>
+    </div>
+  </footer>
+  </body>
+</html>
