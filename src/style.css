@@ -103,21 +103,21 @@ header nav ul li a:hover {
   color: rgb(178, 241, 4);
   background-position: center;
   background-size: cover;
-  background-image: url(/Images/bamboo2.jpg);
+  background-image: url(Images/bamboo2.jpg);
 }
 
 .feature-2 {
   color: rgb(178, 241, 4);
   background-position: center;
   background-size: cover;
-  background-image: url(/Images/bamboo3.jpg);
+  background-image: url(Images/bamboo3.jpg);
 }
 
 .feature-3 {
   color: rgb(178, 241, 4);
   background-position: center;
   background-size: contain;
-  background-image: url(/Images/brush.jpg);
+  background-image: url(Images/brush.jpg);
 }
 
 .feature-1 p {
